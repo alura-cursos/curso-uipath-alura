@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cotações de fechamento …",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "bPWArTZmCUSosxSiuVPd2g",
+  "Reference": "kxQ_gKVsZ0GWW_3WItJGSg/bPWArTZmCUSosxSiuVPd2g",
+  "ParentRef": "kxQ_gKVsZ0GWW_3WItJGSg/aZoaQq2rnEC1c5qBX2amcw",
+  "Created": "2024-11-11T14:39:15.9609118Z",
+  "Updated": "2024-11-11T14:39:15.9609118Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

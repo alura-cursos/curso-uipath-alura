@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_HATaMuZsUCctOhqgdww0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bcb.gov.br/estabilidadefinanceira/historicocotacoes" CVScreenId="f7b12309-c21a-450f-9212-c65695a63dd0" CvElementArea="570, 997, 144, 42" CvTextArea="585, 1006, 115, 27" CvTextArgument="Pesquisar" CvType="Button" DesignTimeRectangle="572, 998, 140, 39" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='submit' class='botao' aaname='Pesquisar' check:text='Pesquisar' /&gt;" Guid="cb6dabb9-ca28-4a4a-9925-ce5d0460397e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1a792928e68d771b3c5695b7a5e6da1e.png" xmlns="">0Tp2GHw_ng0axGDxHTLOGiA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

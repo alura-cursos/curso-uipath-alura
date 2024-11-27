@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PvlQr-7loEi1fUJUBsc3lw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bcb.gov.br/estabilidadefinanceira/historicocotacoes" CVScreenId="769574ba-f342-468e-a938-7e168cb7e838" CvElementArea="363, 819, 227, 42" CvType="InputBox" DesignTimeRectangle="365, 820, 223, 39" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='DATAINI' type='text' tag='INPUT' class='' aaname='' /&gt;" Guid="507d0b15-6151-4176-af64-c09f88970b96" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="769574ba-f342-468e-a938-7e168cb7e838" CvTextArea="239, 829, 117, 21" CvTextArgument="Data Inicial" CvType="Text" DesignTimeRectangle="173, 816, 188, 47" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname=' &amp;#x9;&amp;#x9;                        Data Inicial &amp;#x9;&amp;#x9;                    ' check:innerText='Data Inicial' /&gt;" Guid="26517558-9f24-4aeb-a96e-a8e9b1fb430c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e3a1b0c4559af5802358c4360e635ccf.png" xmlns="">0hD5q8UIJjEq0KgQLCwfASg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

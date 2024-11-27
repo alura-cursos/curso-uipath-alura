@@ -1,0 +1,302 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="470,371" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="96">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Presentations</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Mail.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>UiPath.Semantic.Activities</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="76">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="1890.4,1208.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Observações" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Cotações e boletins" sap:VirtualizedContainerService.HintSize="449.6,1185.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="10349ce6-1095-4b86-8293-c30cdb3b3f99" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="416,945.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cotações de fechamento …'" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="10349ce6-1095-4b86-8293-c30cdb3b3f99" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bcb.gov.br/estabilidadefinanceira/historicocotacoes" CVScreenId="cdf50833-1161-46ac-a09c-d3bb3d5da242" ContentHash="QUT-EP9Q-Eq72R_VAZ-CVQ" CvElementArea="355, 563, 22, 22" CvType="RadioButton" DesignTimeRectangle="359, 566, 16, 16" DesignTimeScaleFactor="1.25" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='RadOpcao' type='radio' tag='INPUT' class='' aaname='' /&gt;" Guid="16ea169a-be8e-4021-8c13-f6c94f4b4a76" InformativeScreenshot="e9319ee72ed91539c706e465e0886fd9.png" Reference="kxQ_gKVsZ0GWW_3WItJGSg/bPWArTZmCUSosxSiuVPd2g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="cdf50833-1161-46ac-a09c-d3bb3d5da242" CvTextArea="379, 569, 392, 18" CvTextArgument="Cotações de fechamento de uma moeda em um período." CvType="Text" DesignTimeRectangle="379, 569, 392, 17" ElementType="Text" Guid="647f2a65-e961-445e-ac77-ad9bb8c439cc" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NSelectItem DisplayName="Select Item 'Moeda'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="IENE" ScopeIdentifier="10349ce6-1095-4b86-8293-c30cdb3b3f99" Version="V4">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="50">
+                  <x:String>FLORIM/SURINAME</x:String>
+                  <x:String>FORINT/HUNGRIA</x:String>
+                  <x:String>FRANCO BELGA FINA</x:String>
+                  <x:String>FRANCO BELGA/BELG</x:String>
+                  <x:String>FRANCO CFA BCEAO</x:String>
+                  <x:String>FRANCO CFA BEAC</x:String>
+                  <x:String>FRANCO CFP</x:String>
+                  <x:String>FRANCO COMORES</x:String>
+                  <x:String>FRANCO CONGOLES</x:String>
+                  <x:String>FRANCO FRANCES</x:String>
+                  <x:String>FRANCO LUXEMBURGO</x:String>
+                  <x:String>FRANCO MALGAXE MADAGA</x:String>
+                  <x:String>FRANCO MALI</x:String>
+                  <x:String>FRANCO SUICO</x:String>
+                  <x:String>FRANCO/BURUNDI</x:String>
+                  <x:String>FRANCO/BURUNDI</x:String>
+                  <x:String>FRANCO/DJIBUTI</x:String>
+                  <x:String>FRANCO/GUINE</x:String>
+                  <x:String>FRANCO/RUANDA</x:String>
+                  <x:String>FUA</x:String>
+                  <x:String>GOURDE HAITI</x:String>
+                  <x:String>GUARANI/PARAGUAI</x:String>
+                  <x:String>GUILDER ANTILHAS HOLANDESAS</x:String>
+                  <x:String>HRYVNIA UCRANIA</x:String>
+                  <x:String>IENE</x:String>
+                  <x:String>INTI PERUANO</x:String>
+                  <x:String>KARBOVANETS</x:String>
+                  <x:String>KINA DE PAPUA NOVA GUINE</x:String>
+                  <x:String>KUNA DA CROACIA</x:String>
+                  <x:String>KWANZA/ANGOLA</x:String>
+                  <x:String>LARI GEORGIA</x:String>
+                  <x:String>LAT LETONIA REP</x:String>
+                  <x:String>LEK ALBANIA REP</x:String>
+                  <x:String>LEMPIRA/HONDURAS</x:String>
+                  <x:String>LEONE/SERRA LEOA</x:String>
+                  <x:String>LEU/MOLDAVIA, REP</x:String>
+                  <x:String>LEU/ROMENIA</x:String>
+                  <x:String>LEV/BULGARIA, REP</x:String>
+                  <x:String>LIBRA CIP/CHIPRE</x:String>
+                  <x:String>LIBRA DE GIBRALTAR</x:String>
+                  <x:String>LIBRA DE SANTA HELENA</x:String>
+                  <x:String>LIBRA ESTERLINA</x:String>
+                  <x:String>LIBRA ISRAELENSE</x:String>
+                  <x:String>LIBRA SUDANESA</x:String>
+                  <x:String>LIBRA SUL SUDANESA</x:String>
+                  <x:String>LIBRA/EGITO</x:String>
+                  <x:String>LIBRA/FALKLAND</x:String>
+                  <x:String>LIBRA/IRLANDA</x:String>
+                  <x:String>LIBRA/LIBANO</x:String>
+                  <x:String>LIBRA/SIRIA, REP</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="bcb.gov.br/estabilidadefinanceira/historicocotacoes" CVScreenId="fa4262df-6e89-4dfc-8bc4-04f27ed8bed1" ContentHash="NEU4d0VLQkqWC-DbAYKFhw" CvElementArea="476, 737, 332, 26" CvType="InputBox" DesignTimeRectangle="478, 738, 328, 23" DesignTimeScaleFactor="1.25" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="3db7e9d6-944c-414c-9f9f-d567458c1858" InformativeScreenshot="7630ddc557f6b20826b94a1ae3273c48.png" Reference="kxQ_gKVsZ0GWW_3WItJGSg/b2hiemt6QUqrWQJ9EmNqWQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="fa4262df-6e89-4dfc-8bc4-04f27ed8bed1" CvTextArea="426, 742, 47, 15" CvTextArgument="Moeda" CvType="Text" DesignTimeRectangle="350, 735, 125, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='fundoPadraoBClaro3' aaname=' &amp;#x9;&amp;#x9;                        Moeda &amp;#x9;&amp;#x9;                    ' check:innerText='Moeda' /&gt;" Guid="0e07c420-35c9-4dd1-bc39-4c4cbdd4fc80" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NSelectItem>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Data Inicial'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="10349ce6-1095-4b86-8293-c30cdb3b3f99" Text="[New DateTime(DateTime.Now.Year, DateTime.Now.Month, 1).ToString(&quot;ddMMyyyy&quot;)]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="bcb.gov.br/estabilidadefinanceira/historicocotacoes" CVScreenId="769574ba-f342-468e-a938-7e168cb7e838" ContentHash="PvlQr-7loEi1fUJUBsc3lw" CvElementArea="363, 819, 227, 42" CvType="InputBox" DesignTimeRectangle="365, 820, 223, 39" DesignTimeScaleFactor="1.875" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='DATAINI' type='text' tag='INPUT' class='' aaname='' /&gt;" Guid="507d0b15-6151-4176-af64-c09f88970b96" InformativeScreenshot="e3a1b0c4559af5802358c4360e635ccf.png" IsResponsive="True" Reference="kxQ_gKVsZ0GWW_3WItJGSg/9TxZ8v3Rz0OPNBQ4mpWknA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="769574ba-f342-468e-a938-7e168cb7e838" CvTextArea="239, 829, 117, 21" CvTextArgument="Data Inicial" CvType="Text" DesignTimeRectangle="173, 816, 188, 47" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname=' &amp;#x9;&amp;#x9;                        Data Inicial &amp;#x9;&amp;#x9;                    ' check:innerText='Data Inicial' /&gt;" Guid="26517558-9f24-4aeb-a96e-a8e9b1fb430c" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pesquisar(1)'" sap:VirtualizedContainerService.HintSize="382.4,218.4" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="10349ce6-1095-4b86-8293-c30cdb3b3f99" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bcb.gov.br/estabilidadefinanceira/historicocotacoes" CVScreenId="f7b12309-c21a-450f-9212-c65695a63dd0" ContentHash="_HATaMuZsUCctOhqgdww0Q" CvElementArea="570, 997, 144, 42" CvTextArea="585, 1006, 115, 27" CvTextArgument="Pesquisar" CvType="Button" DesignTimeRectangle="572, 998, 140, 39" DesignTimeScaleFactor="1.875" ElementType="Button" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='submit' class='botao' aaname='Pesquisar' check:text='Pesquisar' /&gt;" Guid="cb6dabb9-ca28-4a4a-9925-ce5d0460397e" InformativeScreenshot="1a792928e68d771b3c5695b7a5e6da1e.png" Reference="kxQ_gKVsZ0GWW_3WItJGSg/BBvgoh8WtUSQKg3rt35qNA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1911, -139, 1938, 1098" BrowserType="Chrome" ContentHash="ihdTp0UJskaBkSXxvrGKag" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF9SURBVFhH1ZSxTsMwFEWzsTH3X5BY+RyQ+AEqfgDUz6iY273M7Zy1YsycNehEfuHlyY5t6jTqla7UpM/vHju2q25h3R7A13brfpVRFsD34bAcAOGbj8+uaRr3Jixq67p2T9OKAtCsqqresdnr2iIAumEKwOvzSzkAG46vBvBzPo+CxVcDYLAOFhMAhPZ+t3OjxgBsWFvLqlqNAGSHhwB81k01gPXq7r5fWasBgEY0sILc1xDbGYUAQuFoAKDQB8Bq2KXEp+PRVfwJIF9tKBxFAebW7QDI8qaI2uxjGALgW/MfjgEQLLXFAAhNBWD8RQAcF5poPz08FgNghah5f1u7NwYg5ksBGG/vhCwAAmiinXMVM3N7JwwAEItpqoNDtrPRANbRq1gLCF8TbV/DEEAoHGUDyGfwNZS7QtdPhaNsAAJiktpYOJoVIBaOvABt2/YQ2rIxUwBkTIq8AD7REAAuJvZByBw1JpCqbIApp3xzq2IA/wlHyQBzaWGArvsFX3FHTCvn7cUAAAAASUVORK5CYII=" InformativeScreenshot="1e818a126e23f107fe38290aef9a3c37.jpg" Reference="kxQ_gKVsZ0GWW_3WItJGSg/aZoaQq2rnEC1c5qBX2amcw" Selector="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" Title="Cotações e boletins" Url="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </ueab:SequenceX>
+</Activity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NEU4d0VLQkqWC-DbAYKFhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bcb.gov.br/estabilidadefinanceira/historicocotacoes" CVScreenId="fa4262df-6e89-4dfc-8bc4-04f27ed8bed1" CvElementArea="476, 737, 332, 26" CvType="InputBox" DesignTimeRectangle="478, 738, 328, 23" DesignTimeScaleFactor="1.25" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='' aaname='' /&gt;" Guid="3db7e9d6-944c-414c-9f9f-d567458c1858" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fa4262df-6e89-4dfc-8bc4-04f27ed8bed1" CvTextArea="426, 742, 47, 15" CvTextArgument="Moeda" CvType="Text" DesignTimeRectangle="350, 735, 125, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://ptax.bcb.gov.br/ptax_internet/consultaBoletim.do?method=exibeFormularioConsultaBoletim' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='fundoPadraoBClaro3' aaname=' &amp;#x9;&amp;#x9;                        Moeda &amp;#x9;&amp;#x9;                    ' check:innerText='Moeda' /&gt;" Guid="0e07c420-35c9-4dd1-bc39-4c4cbdd4fc80" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7630ddc557f6b20826b94a1ae3273c48.png" xmlns="">0XC-kZoPZLkeZyKIAWszp4Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

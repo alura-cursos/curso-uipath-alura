@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Cotações e boletins",
+  "Type": "Screen",
+  "Id": "aZoaQq2rnEC1c5qBX2amcw",
+  "Reference": "kxQ_gKVsZ0GWW_3WItJGSg/aZoaQq2rnEC1c5qBX2amcw",
+  "ParentRef": "kxQ_gKVsZ0GWW_3WItJGSg/J-ePZFFjrUGtAsgQi7yd-w",
+  "Created": "2024-11-11T14:26:25.8846949Z",
+  "Updated": "2024-11-11T14:26:25.8846949Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

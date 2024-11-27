@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Cotações e boletins",
+  "Type": "App",
+  "Id": "zMI005DVGkSNg1uJdiIR2g",
+  "Reference": "kxQ_gKVsZ0GWW_3WItJGSg/zMI005DVGkSNg1uJdiIR2g",
+  "Created": "2024-11-11T14:26:25.7552619Z",
+  "Updated": "2024-11-11T14:26:25.7552619Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

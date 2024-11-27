@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="ihdTp0UJskaBkSXxvrGKag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1911, -139, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF9SURBVFhH1ZSxTsMwFEWzsTH3X5BY+RyQ+AEqfgDUz6iY273M7Zy1YsycNehEfuHlyY5t6jTqla7UpM/vHju2q25h3R7A13brfpVRFsD34bAcAOGbj8+uaRr3Jixq67p2T9OKAtCsqqresdnr2iIAumEKwOvzSzkAG46vBvBzPo+CxVcDYLAOFhMAhPZ+t3OjxgBsWFvLqlqNAGSHhwB81k01gPXq7r5fWasBgEY0sILc1xDbGYUAQuFoAKDQB8Bq2KXEp+PRVfwJIF9tKBxFAebW7QDI8qaI2uxjGALgW/MfjgEQLLXFAAhNBWD8RQAcF5poPz08FgNghah5f1u7NwYg5ksBGG/vhCwAAmiinXMVM3N7JwwAEItpqoNDtrPRANbRq1gLCF8TbV/DEEAoHGUDyGfwNZS7QtdPhaNsAAJiktpYOJoVIBaOvABt2/YQ2rIxUwBkTIq8AD7REAAuJvZByBw1JpCqbIApp3xzq2IA/wlHyQBzaWGArvsFX3FHTCvn7cUAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='Cotações e boletins' /&gt;" Title="Cotações e boletins" Url="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="1e818a126e23f107fe38290aef9a3c37.jpg" xmlns="">0hlsnZ5b_OUGoQOjRNR7tvw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
