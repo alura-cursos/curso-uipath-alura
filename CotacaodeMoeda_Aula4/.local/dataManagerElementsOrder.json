@@ -12,11 +12,14 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "EmailsRelatorio&Sequence_1",
         "DataAtual&Sequence_1",
         "DadosDeCotacao&Sequence_1",
         "UltimaLinhaComDados&Sequence_1"
       ],
-      "ArgumentsSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Moeda"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
