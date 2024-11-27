@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "DataAtual&Sequence_1",
         "DadosDeCotacao&Sequence_1",
         "UltimaLinhaComDados&Sequence_1"
       ],
